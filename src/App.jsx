@@ -6,6 +6,7 @@ function App() {
   const [prompt, setPrompt] = useState('');
   const [result, setResult] = useState('');
   const configuration = new Configuration({
+    // Insert your OpenAI API key here from .env file
     apiKey: import.meta.env.VITE_Open_AI_Key,
   });
 
